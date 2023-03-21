@@ -1,4 +1,4 @@
-Title: Yandex Practicum Dataset Downloader
+Title: Yandex Practicum Datasets Downloader
 
 Description:
 
@@ -23,7 +23,7 @@ Note: Make sure you have the necessary permissions to access the Yandex Practicu
 I hope this helps! Let me know if you have any other questions.
 
 ---
-Название: Yandex Practicum Datasets Downloader
+Название: Яндекс Практикум. Загрузчик датасетов
 
 Описание:
 
