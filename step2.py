@@ -47,7 +47,7 @@ for item in assets:
             with open(os.path.join(save_path,  dir_name + '/' + file_name), 'wb') as f:
                 f.write(r.content)
 
-            # добавляем условие для добавления паузы
+            # условие для добавления паузы
             # условие будет истинным только тогда, когда значение count будет кратно случайному целому числу от 3 до 5.
             if count % random.randint(3, 5) == 0:
                 print(f"Загружено {count} файлов из {all_count}")
