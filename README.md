@@ -1,15 +1,15 @@
-Title: Yandex Practicum Datasets Downloader
+# Yandex Practicum Datasets Downloader
 
-Description:
+## Description:
 
 This Python project helps download training datasets from Yandex Practicum. The project consists of two steps: getting a list of files and downloading them to your computer.
 
-Step 1 involves running a Python script on the Yandex Practicum platform to retrieve the list of files. To do this, you can use the simulator or Jupyter Notebook project on the platform. The script is included in this project and can be found in the file step1.py.
+**Step 1** involves running a Python script on the Yandex Practicum platform to retrieve the list of files. To do this, you can use the simulator or Jupyter Notebook project on the platform. The script is included in this project and can be found in the file step1.py.
 
 
-Step 2 involves downloading the data sets to your computer. To do this, you need to run the script step2.py on your local computer. Before running the script, make sure to assign the values obtained in step 1 to the assets variable.
+**Step 2** involves downloading the data sets to your computer. To do this, you need to run the script step2.py on your local computer. Before running the script, make sure to assign the values obtained in step 1 to the assets variable.
 
-Instructions:
+## Instructions:
 
 To use this project, follow these steps:
 
@@ -18,18 +18,18 @@ To use this project, follow these steps:
     Assign the values obtained in step 1 to the assets variable in step2.py.
     Run the script step2.py on your local computer to download the data sets.
 
-Note: Make sure you have the necessary permissions to access the Yandex Practicum platform and download the datasets.
+*Note: Make sure you have the necessary permissions to access the Yandex Practicum platform and download the datasets.*
 
 I hope this helps! Let me know if you have any other questions.
 
 ---
-Название: Яндекс Практикум. Загрузчик датасетов
+# Название: Яндекс Практикум. Загрузчик датасетов
 
-Описание:
+## Описание:
 
 Этот Python-проект помогает загружать учебные наборы данных из Yandex Practicum. Проект состоит из двух шагов: получение списка файлов и их загрузка на ваш компьютер.
 
-Краткая инструкция:
+## Краткая инструкция:
 
 Чтобы использовать этот проект, выполните следующие шаги:
 
@@ -38,7 +38,9 @@ I hope this helps! Let me know if you have any other questions.
     Присвойте значения, полученные на шаге 1, переменной assets в файле step2.py.
     Запустите сценарий step2.py на своем локальном компьютере, чтобы загрузить наборы данных.
 
-Шаг 1 включает в себя запуск скрипта Python на платформе Yandex Practicum для получения списка файлов. Для этого вы можете использовать тренажер или учебный проект в Jupyter Notebook на платформе. Сценарий включен в этот проект и находится в файле step1.py.
+## Подробная инструкция
+
+**Шаг 1** включает в себя запуск скрипта Python на платформе Yandex Practicum для получения списка файлов. Для этого вы можете использовать тренажер или учебный проект в Jupyter Notebook на платформе. Сценарий включен в этот проект и находится в файле `step1.py`.
 ```python
 import os
 
@@ -69,7 +71,7 @@ print(assets)  # выводит список файлов в директори�
 
 # Скопируйте финальный вывод из консоли. Эти данные понадобятся на шаге 2.
 ```
-Шаг 2 включает загрузку наборов данных на ваш компьютер. Для этого необходимо запустить скрипт step2.py на локальном компьютере. Перед запуском скрипта убедитесь, что значения, полученные в шаге 1, присвоены переменной assets.
+**Шаг 2** включает загрузку наборов данных на ваш компьютер. Для этого необходимо запустить скрипт `step2.py` на локальном компьютере. **Перед запуском скрипта убедитесь, что значения, полученные в шаге 1, присвоены переменной `assets`.**
 ```python
 # Шаг 2 (запускаем скрипт на локальном компьютере, на который будут скачаны файлы)
 
@@ -143,6 +145,6 @@ print(f"Список пропущенных файлов по причине к�
 ```
 
 
-Примечание: Убедитесь, что у вас есть необходимые разрешения для доступа к платформе Yandex Practicum и загрузки наборов данных.
+*Примечание: Убедитесь, что у вас есть необходимые разрешения для доступа к платформе Yandex Practicum и загрузки наборов данных.*
 
 Надеюсь, это поможет! Дайте мне знать, если у вас возникнут другие вопросы.
