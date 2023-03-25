@@ -29,6 +29,7 @@ for item in dirs:
     assets_all.append([os.path.join(item, f) for f in os.listdir(item)])
 
 assets = [item for sublist in assets_all for item in sublist]
-print(assets)  # выводит список файлов в директории
+print('assets =', assets)  # выводит значение переменной 'assets', содержащей все файлы в директории
+                           # в которой хранится список файлов в директории на платформе яндекс практикум
 
-# Скопируйте финальный вывод из консоли. Эти данные понадобятся на шаге 2.
+print('Скопируйте финальный вывод из консоли выше. Эти данные понадобятся на шаге 2.')
